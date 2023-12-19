@@ -22,35 +22,27 @@
           "format": "uri",
           "type": "string"
         },
-        "profile": {
-          "properties": {
-            "name": {
-              "type": "string"
-            },
-            "gender": {
-              "type": "string"
-            },
-            "dateOfBirth": {
-              "type": "string"
-            },
-            "email": {
-              "type": "string"
-            },
-            "phone": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "name",
-            "gender",
-            "dateOfBirth"
-          ],
-          "type": "object"
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "dateOfBirth": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
         }
       },
       "required": [
         "id",
-        "profile"
+        "name",
+        "gender",
+        "dateOfBirth"
       ],
       "type": "object"
     },
@@ -61,41 +53,34 @@
           "title": "Econ wallet DID.",
           "type": "string"
         },
-        "profile": {
-          "properties": {
-            "name": {
-              "title": "Full name",
-              "type": "string"
-            },
-            "gender": {
-              "title": "Gender",
-              "type": "string"
-            },
-            "dateOfBirth": {
-              "title": "Date of birth",
-              "format": "date",
-              "type": "string"
-            },
-            "email": {
-              "title": "E-mail address",
-              "type": "string",
-              "format": "email"
-            },
-            "phone": {
-              "title": "Phone number",
-              "type": "string"
-            }
-          },
-          "required": [
-            "name",
-            "gender",
-            "dateOfBirth"
-          ]
+        "name": {
+          "title": "Full name",
+          "type": "string"
+        },
+        "gender": {
+          "title": "Gender",
+          "type": "string"
+        },
+        "dateOfBirth": {
+          "title": "Date of birth",
+          "format": "date",
+          "type": "string"
+        },
+        "email": {
+          "title": "E-mail address",
+          "type": "string",
+          "format": "email"
+        },
+        "phone": {
+          "title": "Phone number",
+          "type": "string"
         }
       },
       "required": [
         "id",
-        "profile"
+        "name",
+        "gender",
+        "dateOfBirth"
       ],
       "type": "object"
     },
